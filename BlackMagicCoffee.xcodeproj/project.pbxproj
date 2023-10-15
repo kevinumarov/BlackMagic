@@ -13,6 +13,7 @@
 		22EF4C842ADC0AB80048A6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF4C822ADC0AB80048A6BB /* Main.storyboard */; };
 		22EF4C862ADC0AB80048A6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EF4C852ADC0AB80048A6BB /* Assets.xcassets */; };
 		22EF4C892ADC0AB80048A6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF4C872ADC0AB80048A6BB /* LaunchScreen.storyboard */; };
+		D50104DB2ADC1E99003F53E3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50104DA2ADC1E99003F53E3 /* WelcomeViewController.swift */; };
 		FECF1C7D4BA0119C37143148 /* Pods_BlackMagicCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D8BF5BD0F720C1E178128C /* Pods_BlackMagicCoffee.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		22EF4C882ADC0AB80048A6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22EF4C8A2ADC0AB80048A6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A749BDE694E397E96C94C9A4 /* Pods-BlackMagicCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMagicCoffee.debug.xcconfig"; path = "Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		D50104DA2ADC1E99003F53E3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F7D8BF5BD0F720C1E178128C /* Pods_BlackMagicCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackMagicCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				22EF4C802ADC0AB80048A6BB /* ViewController.swift */,
 				22EF4C822ADC0AB80048A6BB /* Main.storyboard */,
 				22EF4C872ADC0AB80048A6BB /* LaunchScreen.storyboard */,
+				22EF4C8A2ADC0AB80048A6BB /* Info.plist */,
 			);
 			path = BlackMagicCoffee;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				22EF4C932ADC0FF70048A6BB /* Animations */,
 				22EF4C922ADC0FDB0048A6BB /* Fonts */,
 				22EF4C852ADC0AB80048A6BB /* Assets.xcassets */,
-				22EF4C8A2ADC0AB80048A6BB /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -120,6 +122,9 @@
 		22EF4C952ADC102B0048A6BB /* Pages */ = {
 			isa = PBXGroup;
 			children = (
+				D50104D72ADC1E1D003F53E3 /* Onboarding */,
+				D50104D62ADC1E19003F53E3 /* New Group1 */,
+				D50104D52ADC1E16003F53E3 /* New Group */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -153,6 +158,45 @@
 				F7D8BF5BD0F720C1E178128C /* Pods_BlackMagicCoffee.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50104D52ADC1E16003F53E3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			path = "BlackMagicCoffee/Pages/New Group";
+			sourceTree = "<group>";
+		};
+		D50104D62ADC1E19003F53E3 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		D50104D72ADC1E1D003F53E3 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D50104D92ADC1E41003F53E3 /* SignIn */,
+				D50104D82ADC1E36003F53E3 /* SignUp */,
+				D50104DA2ADC1E99003F53E3 /* WelcomeViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		D50104D82ADC1E36003F53E3 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		D50104D92ADC1E41003F53E3 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22EF4C812ADC0AB80048A6BB /* ViewController.swift in Sources */,
+				D50104DB2ADC1E99003F53E3 /* WelcomeViewController.swift in Sources */,
 				22EF4C7D2ADC0AB80048A6BB /* AppDelegate.swift in Sources */,
 				22EF4C7F2ADC0AB80048A6BB /* SceneDelegate.swift in Sources */,
 			);
@@ -438,7 +483,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6R8942ZSQD;
+				DEVELOPMENT_TEAM = SQB47CP5D4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlackMagicCoffee/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BlackMagic Coffee";
@@ -447,6 +492,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,7 +514,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6R8942ZSQD;
+				DEVELOPMENT_TEAM = SQB47CP5D4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlackMagicCoffee/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "BlackMagic Coffee";
@@ -477,6 +523,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

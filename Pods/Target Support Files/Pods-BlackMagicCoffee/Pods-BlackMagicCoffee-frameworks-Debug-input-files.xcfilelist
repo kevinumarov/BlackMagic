@@ -1,11 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/CHIOTPField/CHIOTPField.framework
 ${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework
 ${BUILT_PRODUCTS_DIR}/GravitySliderFlowLayout/GravitySliderFlowLayout.framework
-${BUILT_PRODUCTS_DIR}/Pages/Pages.framework
 ${BUILT_PRODUCTS_DIR}/Panels/Panels.framework
-${BUILT_PRODUCTS_DIR}/Presentation/Presentation.framework
 ${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework
 ${BUILT_PRODUCTS_DIR}/RadioGroup/RadioGroup.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework

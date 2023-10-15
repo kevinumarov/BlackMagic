@@ -46,18 +46,10 @@ target 'BlackMagicCoffee' do
     pod 'TransitionButton'
 
   # for launching - Onboarding 
-    pod 'Presentation'
+  # pod 'Presentation'
     pod 'GravitySliderFlowLayout'
   
   # for reading QR code 
     pod 'QRCodeReader.swift', '~> 10.1.0'
 
-  # Phone verification text field 
-     pod 'CHIOTPField', '~> 0.1'
-
-
-
-
-
-
-end
+ end

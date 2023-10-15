@@ -41,7 +41,7 @@ install_framework()
 
   if [ -L "${source}" ]; then
     echo "Symlinked..."
-    source="$(readlink -f "${source}")"
+    source="$(readlink "${source}")"
   fi
 
   if [ -d "${source}/${BCSYMBOLMAP_DIR}" ]; then
@@ -177,12 +177,9 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CHIOTPField/CHIOTPField.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GravitySliderFlowLayout/GravitySliderFlowLayout.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Pages/Pages.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Panels/Panels.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Presentation/Presentation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RadioGroup/RadioGroup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"
@@ -200,12 +197,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/CHIOTPField/CHIOTPField.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FlexLayout/FlexLayout.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GravitySliderFlowLayout/GravitySliderFlowLayout.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Pages/Pages.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Panels/Panels.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Presentation/Presentation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QRCodeReader.swift/QRCodeReader.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RadioGroup/RadioGroup.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework"

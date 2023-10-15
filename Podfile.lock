@@ -1,14 +1,5 @@
 PODS:
   - Alamofire (5.8.0)
-  - CHIOTPField (0.1.0):
-    - CHIOTPField/Four (= 0.1.0)
-    - CHIOTPField/One (= 0.1.0)
-    - CHIOTPField/Three (= 0.1.0)
-    - CHIOTPField/Two (= 0.1.0)
-  - CHIOTPField/Four (0.1.0)
-  - CHIOTPField/One (0.1.0)
-  - CHIOTPField/Three (0.1.0)
-  - CHIOTPField/Two (0.1.0)
   - FlexLayout (2.0.02)
   - Google-Maps-iOS-Utils (4.2.2):
     - Google-Maps-iOS-Utils/Clustering (= 4.2.2)
@@ -34,13 +25,10 @@ PODS:
   - GoogleMaps/Base (7.4.0)
   - GoogleMaps/Maps (7.4.0):
     - GoogleMaps/Base
-  - GooglePlaces (8.2.1)
+  - GooglePlaces (7.4.0)
   - GravitySliderFlowLayout (1.0)
   - lottie-ios (4.3.3)
-  - Pages (2.0.2)
   - Panels (2.1.0)
-  - Presentation (4.1.2):
-    - Pages (~> 2.0)
   - QRCodeReader.swift (10.1.0)
   - RadioGroup (1.4.6):
     - SweeterSwift
@@ -99,7 +87,6 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - CHIOTPField (~> 0.1)
   - FlexLayout
   - Google-Maps-iOS-Utils
   - GoogleMaps
@@ -107,7 +94,6 @@ DEPENDENCIES:
   - GravitySliderFlowLayout
   - lottie-ios
   - Panels
-  - Presentation
   - QRCodeReader.swift (~> 10.1.0)
   - RadioGroup
   - RxCocoa (= 6.5.0)
@@ -123,16 +109,13 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
-    - CHIOTPField
     - FlexLayout
     - Google-Maps-iOS-Utils
     - GoogleMaps
     - GooglePlaces
     - GravitySliderFlowLayout
     - lottie-ios
-    - Pages
     - Panels
-    - Presentation
     - QRCodeReader.swift
     - RadioGroup
     - RxCocoa
@@ -149,16 +132,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
-  CHIOTPField: 5df19b433ccfad2a80e944d3abde128a236aaf01
   FlexLayout: bd1d1738d67a455205e14c42492fe5450e3c1554
   Google-Maps-iOS-Utils: f77eab4c4326d7e6a277f8e23a0232402731913a
   GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
-  GooglePlaces: 867722fe422f5a4cc19c68bc28f9f74a24470e40
+  GooglePlaces: 544e908d94860bf6f8fc1865b80d2c7eb6b5f937
   GravitySliderFlowLayout: bb9ae6a302b85821c9e0271c00533fae8091143b
   lottie-ios: 25e7b2675dad5c3ddad369ac9baab03560c5bfdd
-  Pages: 5564ac6035c48fef7a837049314f57507d263b11
   Panels: cfafe2d0f92387f393a3b5e827af9ffffe46b073
-  Presentation: 84974970fa451c89147d2bed4d5d50f857e71761
   QRCodeReader.swift: 373a389fe9a22d513c879a32a6f647c58f4ef572
   RadioGroup: 5dbb3cc52b512b7acce45833c9aecf156d22d2db
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
@@ -173,6 +153,6 @@ SPEC CHECKSUMS:
   ToastViewSwift: db710ad3c19c826269d004038c7b69f5b658dc6f
   TransitionButton: 36283346e17c64775a1b3bc3a7a72940a367de1f
 
-PODFILE CHECKSUM: cb00fec6c137198c78ce40a8147b9957d19a6d79
+PODFILE CHECKSUM: 89d863786a5bae3b9ba2950738aed2d5cafda407
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.11.3

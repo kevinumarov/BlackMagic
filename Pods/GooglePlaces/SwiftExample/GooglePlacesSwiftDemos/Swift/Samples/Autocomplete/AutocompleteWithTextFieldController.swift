@@ -62,11 +62,9 @@ class AutocompleteWithTextFieldController: AutocompleteBaseViewController {
     view.addSubview(searchField)
     NSLayoutConstraint.activate([
       searchField.topAnchor.constraint(
-        equalTo: view.safeAreaLayoutGuide.topAnchor, constant: topPadding),
-      searchField.leadingAnchor.constraint(
-        equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: padding),
-      searchField.trailingAnchor.constraint(
-        equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -padding),
+        equalTo: self.topLayoutGuide.bottomAnchor, constant: topPadding),
+      searchField.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+      searchField.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
     ])
 
     tableDataSource.delegate = self
@@ -80,9 +78,9 @@ class AutocompleteWithTextFieldController: AutocompleteBaseViewController {
     view.addSubview(resultView)
     NSLayoutConstraint.activate([
       resultView.topAnchor.constraint(equalTo: searchField.bottomAnchor, constant: 0),
-      resultView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-      resultView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
-      resultView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+      resultView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+      resultView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+      resultView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
     ])
   }
 
