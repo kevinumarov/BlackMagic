@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22EF4C7D2ADC0AB80048A6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4C7C2ADC0AB80048A6BB /* AppDelegate.swift */; };
+		22EF4C7F2ADC0AB80048A6BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4C7E2ADC0AB80048A6BB /* SceneDelegate.swift */; };
+		22EF4C812ADC0AB80048A6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF4C802ADC0AB80048A6BB /* ViewController.swift */; };
+		22EF4C842ADC0AB80048A6BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF4C822ADC0AB80048A6BB /* Main.storyboard */; };
+		22EF4C862ADC0AB80048A6BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22EF4C852ADC0AB80048A6BB /* Assets.xcassets */; };
+		22EF4C892ADC0AB80048A6BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22EF4C872ADC0AB80048A6BB /* LaunchScreen.storyboard */; };
+		FECF1C7D4BA0119C37143148 /* Pods_BlackMagicCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D8BF5BD0F720C1E178128C /* Pods_BlackMagicCoffee.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0836F88DC4908A8C817961B9 /* Pods-BlackMagicCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMagicCoffee.release.xcconfig"; path = "Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee.release.xcconfig"; sourceTree = "<group>"; };
+		22EF4C792ADC0AB80048A6BB /* BlackMagicCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackMagicCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EF4C7C2ADC0AB80048A6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22EF4C7E2ADC0AB80048A6BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22EF4C802ADC0AB80048A6BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22EF4C832ADC0AB80048A6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22EF4C852ADC0AB80048A6BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22EF4C882ADC0AB80048A6BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22EF4C8A2ADC0AB80048A6BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A749BDE694E397E96C94C9A4 /* Pods-BlackMagicCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackMagicCoffee.debug.xcconfig"; path = "Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D8BF5BD0F720C1E178128C /* Pods_BlackMagicCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlackMagicCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22EF4C762ADC0AB80048A6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECF1C7D4BA0119C37143148 /* Pods_BlackMagicCoffee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EF4C702ADC0AB80048A6BB = {
+			isa = PBXGroup;
+			children = (
+				22EF4C7B2ADC0AB80048A6BB /* BlackMagicCoffee */,
+				22EF4C7A2ADC0AB80048A6BB /* Products */,
+				3BA6BDF7991912F4C53DC4B9 /* Pods */,
+				6E00223609A9F13E2478F6B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22EF4C7A2ADC0AB80048A6BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22EF4C792ADC0AB80048A6BB /* BlackMagicCoffee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22EF4C7B2ADC0AB80048A6BB /* BlackMagicCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				22EF4C972ADC10480048A6BB /* Networking */,
+				22EF4C962ADC103F0048A6BB /* Components */,
+				22EF4C952ADC102B0048A6BB /* Pages */,
+				22EF4C942ADC10150048A6BB /* Common */,
+				22EF4C912ADC0F990048A6BB /* Resources */,
+				22EF4C902ADC0F790048A6BB /* App */,
+				22EF4C802ADC0AB80048A6BB /* ViewController.swift */,
+				22EF4C822ADC0AB80048A6BB /* Main.storyboard */,
+				22EF4C872ADC0AB80048A6BB /* LaunchScreen.storyboard */,
+			);
+			path = BlackMagicCoffee;
+			sourceTree = "<group>";
+		};
+		22EF4C902ADC0F790048A6BB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				22EF4C7C2ADC0AB80048A6BB /* AppDelegate.swift */,
+				22EF4C7E2ADC0AB80048A6BB /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		22EF4C912ADC0F990048A6BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22EF4C932ADC0FF70048A6BB /* Animations */,
+				22EF4C922ADC0FDB0048A6BB /* Fonts */,
+				22EF4C852ADC0AB80048A6BB /* Assets.xcassets */,
+				22EF4C8A2ADC0AB80048A6BB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		22EF4C922ADC0FDB0048A6BB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		22EF4C932ADC0FF70048A6BB /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		22EF4C942ADC10150048A6BB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		22EF4C952ADC102B0048A6BB /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		22EF4C962ADC103F0048A6BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		22EF4C972ADC10480048A6BB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3BA6BDF7991912F4C53DC4B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A749BDE694E397E96C94C9A4 /* Pods-BlackMagicCoffee.debug.xcconfig */,
+				0836F88DC4908A8C817961B9 /* Pods-BlackMagicCoffee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E00223609A9F13E2478F6B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8BF5BD0F720C1E178128C /* Pods_BlackMagicCoffee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22EF4C782ADC0AB80048A6BB /* BlackMagicCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22EF4C8D2ADC0AB80048A6BB /* Build configuration list for PBXNativeTarget "BlackMagicCoffee" */;
+			buildPhases = (
+				80BB647AAD3ADE584BE5B8E5 /* [CP] Check Pods Manifest.lock */,
+				22EF4C752ADC0AB80048A6BB /* Sources */,
+				22EF4C762ADC0AB80048A6BB /* Frameworks */,
+				22EF4C772ADC0AB80048A6BB /* Resources */,
+				2879219572134CA06E4180B4 /* [CP] Embed Pods Frameworks */,
+				10315102A8784F1DD865C41A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlackMagicCoffee;
+			productName = BlackMagicCoffee;
+			productReference = 22EF4C792ADC0AB80048A6BB /* BlackMagicCoffee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22EF4C712ADC0AB80048A6BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					22EF4C782ADC0AB80048A6BB = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 22EF4C742ADC0AB80048A6BB /* Build configuration list for PBXProject "BlackMagicCoffee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22EF4C702ADC0AB80048A6BB;
+			productRefGroup = 22EF4C7A2ADC0AB80048A6BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22EF4C782ADC0AB80048A6BB /* BlackMagicCoffee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22EF4C772ADC0AB80048A6BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EF4C892ADC0AB80048A6BB /* LaunchScreen.storyboard in Resources */,
+				22EF4C862ADC0AB80048A6BB /* Assets.xcassets in Resources */,
+				22EF4C842ADC0AB80048A6BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10315102A8784F1DD865C41A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2879219572134CA06E4180B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlackMagicCoffee/Pods-BlackMagicCoffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80BB647AAD3ADE584BE5B8E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlackMagicCoffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22EF4C752ADC0AB80048A6BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EF4C812ADC0AB80048A6BB /* ViewController.swift in Sources */,
+				22EF4C7D2ADC0AB80048A6BB /* AppDelegate.swift in Sources */,
+				22EF4C7F2ADC0AB80048A6BB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22EF4C822ADC0AB80048A6BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EF4C832ADC0AB80048A6BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22EF4C872ADC0AB80048A6BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EF4C882ADC0AB80048A6BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22EF4C8B2ADC0AB80048A6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22EF4C8C2ADC0AB80048A6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22EF4C8E2ADC0AB80048A6BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A749BDE694E397E96C94C9A4 /* Pods-BlackMagicCoffee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R8942ZSQD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlackMagicCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BlackMagic Coffee";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keveight.keveight.BlackMagicCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22EF4C8F2ADC0AB80048A6BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0836F88DC4908A8C817961B9 /* Pods-BlackMagicCoffee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6R8942ZSQD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlackMagicCoffee/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "BlackMagic Coffee";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keveight.keveight.BlackMagicCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22EF4C742ADC0AB80048A6BB /* Build configuration list for PBXProject "BlackMagicCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EF4C8B2ADC0AB80048A6BB /* Debug */,
+				22EF4C8C2ADC0AB80048A6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22EF4C8D2ADC0AB80048A6BB /* Build configuration list for PBXNativeTarget "BlackMagicCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EF4C8E2ADC0AB80048A6BB /* Debug */,
+				22EF4C8F2ADC0AB80048A6BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22EF4C712ADC0AB80048A6BB /* Project object */;
+}
