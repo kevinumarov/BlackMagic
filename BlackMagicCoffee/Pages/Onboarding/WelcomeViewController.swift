@@ -16,7 +16,7 @@ class WelcomeViewController: UIViewController {
         img.contentMode = .scaleAspectFill
         return img
     }()
-
+    //MARK: - OVERRIDE FUNCTION
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
